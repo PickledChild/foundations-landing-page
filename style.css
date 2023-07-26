@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ;
   min-height: 100vh;
 }
 
@@ -32,15 +32,15 @@ ul {
   background-color: #1f2937;
   padding: 50px;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .footer {
-  margin-top: auto;
   display: flex;
   padding: 50px;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 .footer-window {
@@ -77,4 +77,6 @@ img {
 .top-img {
   width: 30%;
   height: 30%;
+  max-height: 200px;
+  max-width: 200px;
 }
