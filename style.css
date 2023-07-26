@@ -32,6 +32,7 @@ ul {
   background-color: #1f2937;
   padding: 50px;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer {
@@ -67,4 +68,13 @@ button {
   width: 75px;
   height: 30px;
   color: #e5e7eb;
+}
+
+img {
+  width: 100%;
+}
+
+.top-img {
+  width: 30%;
+  height: 30%;
 }
