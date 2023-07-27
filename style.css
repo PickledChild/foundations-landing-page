@@ -112,7 +112,7 @@ a {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -127,9 +127,17 @@ a {
 .cont-media {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .cont-cont {
   display: flex;
   flex-direction: row;
+  gap: 30px;
+}
+
+.description {
+  text-align: center;
+  max-width: 120px;
+  padding: 10px;
 }
